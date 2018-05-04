@@ -13,7 +13,7 @@ var mongoose = require('mongoose');
  * Get port from environment and store in Express.
  */
 
- var mongoDB = 'mongodb://127.0.0.1:27017/groupthink';
+ var mongoDB = 'mongodb://dbadmin:soar52wit1!@ds115350.mlab.com:15350/groupthink';
 mongoose.connect(mongoDB, {
   // useMongoClient: true
 });
